@@ -56,13 +56,13 @@ function calcular() {
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <img src="./assets/cerveja.svg"/>
+      <img src="./imagem/cerveja.svc"/>
       <p>${Math.ceil(qdtTotalCerveja/355)} latas de Cerveja</p>
     </div>
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <img src="./assets/refri.svg"/>
+      <img src="./imagem/refri.svg"/>
       <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de Bebidas</p>
     </div>
     </br>
