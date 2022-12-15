@@ -56,7 +56,7 @@ function calcular() {
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <img src="./imagem/cerveja.svc"/>
+      <img src="./imagem/cerveja.svg"/>
       <p>${Math.ceil(qdtTotalCerveja/355)} latas de Cerveja</p>
     </div>
   `
