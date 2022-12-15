@@ -6,14 +6,17 @@
     font-family: "Poppins", sans-serif;
     font-size: 60%;
     font-size:large;
+  
   }
   
   h1 {
     font-size: 3rem;
+  
   }
   
   h2 {
     font-size: 2rem;
+    
   }
   
   p {
@@ -43,6 +46,7 @@
     max-width: 90%;
     margin: 0 auto;
     margin-top: 5rem;
+    justify-content: center;
   }
   
   .text-content h1 {
@@ -62,7 +66,7 @@
   }
   
   .box-calculo img {
-    width: 25rem;
+    width: 30rem;
     margin-top: 2rem;
   }
   
@@ -86,9 +90,9 @@
   .box-calculo input {
     width: 100%;
     height: 5.6rem;
-    background: #fafafc;
+    background: #f8f8fa;
   
-    border: 0.1rem solid #e6e6f0;
+    border: 0.1rem solid #2222ee;
     box-sizing: border-box;
     border-radius: 0.8rem;
   
@@ -102,11 +106,11 @@
   .box-calculo button {
     width: 18.8rem;
     height: 5.7rem;
-    background: #ccab1e;
+    background: #088f1fcb;
     color: #fff;
   
     border: none;
-    border-radius: 3.6rem;
+    border-radius: 5.6rem;
   
     text-align: center;
     margin-top: 1rem;
@@ -116,7 +120,7 @@
   }
   
   .box-calculo button:hover {
-    background: #bd9d12;
+    background: #09440ca8;
   }
   
   .grid {
@@ -167,7 +171,7 @@
   
     .box-calculo {
       height: 100vh;
-      background: #ffe162;
+      background: #2faa1733;
       border-radius: 4rem 0 0 4rem;
       display: flex;
       align-items: center;
