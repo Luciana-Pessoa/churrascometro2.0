@@ -22,6 +22,19 @@
   p {
     font-size: 2rem;
   }
+    footer {
+      position: absolute; 
+      bottom: 0px; 
+      width: 100%; 
+      height: 20px; 
+      background-color: rgba(253, 255, 253, 0);
+      text-align:justify;
+      color: #9b98a366;
+
+
+      
+  }
+  
   
   label {
     font-size: 2rem;
