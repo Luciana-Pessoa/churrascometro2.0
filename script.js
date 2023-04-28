@@ -1,5 +1,5 @@
 // Carne - 400gr por pessoa + de 6horas - 650
-// Cerveja - 1200ml por Pessoa + 6 horas - 2000ml
+// Cerveja - 3000ml por Pessoa + 6 horas - 2000ml
 // Refrigerante/água - 1000ml por pessoa + 6 horas 1500ml
 
 // Crianças valem por 0,5
@@ -24,7 +24,7 @@ function cervejaPP(duracao) {
   if(duracao >= 6) {
     return 2000;
   }else{
-    return 1200;
+    return 3000;
   }
 }
 
@@ -63,7 +63,7 @@ function calcular() {
   resultado.innerHTML += `
     <div class="result-block">
       <img src="./imagem/refri.svg"/>
-      <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de Bebidas</p>
+      <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de Bebidas sem alcool</p>
     </div>
     </br>
     </br>
