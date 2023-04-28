@@ -119,8 +119,8 @@ button {
 .box-calculo button {
   width: 18.8rem;
   height: 5.7rem;
-  background: hsl(61, 94%, 50%);
-  color: #030236;
+  background: hsl(231, 94%, 41%);
+  color: #dbdbe9;
 
   border: none;
   border-radius: 5.6rem;
@@ -133,7 +133,7 @@ button {
 }
 
 .box-calculo button:hover {
-  background: #0ae766f1;
+  background: #195bbef1;
 }
 
 .grid {
@@ -146,7 +146,7 @@ button {
 .result-info {
   font-family: "Poppins", sans-serif;
   text-align: center;
-  color: #f7f4f4;
+  color: #0f0c0c;
   width: 0 auto;
   margin-top: 1.5rem;
 }
@@ -184,7 +184,7 @@ button {
 
   .box-calculo {
     height: 100vh;
-    background: hsl(251, 100%, 50%);
+    background: hsla(61, 78%, 61%, 0.897);
     border-radius: 4rem 0 0 4rem;
     display: flex;
     align-items: center;
